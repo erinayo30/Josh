@@ -1,0 +1,385 @@
+/*reset browser default style*/
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/*HEADER*/
+header {
+    background-image: url("like.webp");
+    background-size: cover;
+    background-position: 50%;
+    height: 80vh;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 100%;
+}
+
+.header-content-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+/*FARIN ACADEMY*/
+.Farin-Academy {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(230, 255, 173);
+}
+
+/*NAVLINKS*/
+.nav-links {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 0px;
+    margin: 5px;
+}
+
+#what-we-do {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 0px;
+    margin: 5px;
+}
+
+.nav-links.active {
+    color: red;
+}
+
+.special {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.full-name {
+    color: #ffffff;
+    font: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.brief {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.profile-image {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+}
+
+.hero-media-wrapper svg {
+    height: 20px;
+    width: 20px;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.contact-btn {
+    background-color: #f9320a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px, 20px;
+    border-radius: 30px;
+    border: none;
+    margin: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.contact-bnt:hover {
+    opacity: 0.8;
+    background: #f9320a;
+    color: #fff;
+}
+
+.download-btn {
+    background-color: #fff;
+    color: #f9320a;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px, 20px;
+    border-radius: 26px;
+    border: none;
+    margin: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.download-btn:hover {
+    opacity: 0.8;
+    background: #fff;
+    color: #f82e06;
+}
+
+/*Main Body content*/
+main {
+    margin: 80px;
+}
+
+.section {
+    padding: 40px;
+}
+
+.section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px 0;
+    color: #f82e06;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.let-met-section h2 {
+    padding-top: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-bottom: -50px; */
+}
+
+.let-met-section form {
+    margin: auto;
+}
+
+.about-me {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-brief {
+    text-align: center;
+    margin: 8px;
+    line-height: 1;
+}
+
+/*what we do section*/
+.what-we-do-section {
+    background-color: #f9320a;
+    margin: 40px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.what-we-do-section h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.what-we-do-wrapper {
+    text-align: center;
+    margin: 15px;
+}
+
+.what-we-do-pill {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 1.5s;
+}
+
+/*Achievement*/
+.achievements-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    margin-top: 2rem;
+}
+
+.achievements-card {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.achievements-card-wrapper img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-content {
+    padding: 2px;
+}
+
+.section h3 {
+    color: #f82e06;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.achieement-brief {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.achievements-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.achievements-links svg {
+    width: 20px;
+    height: 20px;
+    fill: #f82e06;
+}
+
+/* .what-we-do-progress-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    padding: 10px;
+} */
+
+.html-progress label {
+    display: block;
+}
+
+/*progress*/
+/*chrome*/
+.let-discuss section::-webkit-progress-bar {
+    background-color: #f82e06;
+    border-radius: 100px;
+}
+
+.let-discuss section::-webkit-progress-value {
+    background-color: #f82e06;
+    border-radius: 100%;
+}
+
+/*firefox*/
+.let-discuss section::-moz-progress-bar {
+    background-color: #f82e06;
+    border-radius: 100px;
+}
+
+/*IE10*/
+.let-discuss-progress {
+    background-color: #f82e06;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+/*let met section*/
+.let-met-section {
+    width: 100%;
+    background-color: #f9320a;
+    /* margin: 40px; */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+textarea {
+    width: 50%;
+    height: 40px;
+    background-color: #fff;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-group {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background-color: #f82e06;
+    border: 1px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.form-btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    color: #f82e06;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px, 14px;
+    cursor: pointer;
+    text-emphasis-color: #fff;
+}
+
+.form-group-textarea {
+    align-items: center;
+}
+
+footer {
+    background-size: cover;
+    background-position: 50%;
+    height: 10vh;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.closing-remark {
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 16, 24);
+}
